@@ -5,7 +5,6 @@ import UIKit
 // MARK: - ___VARIABLE_moduleName___ViewProtocol
 protocol ___VARIABLE_moduleName___ViewProtocol: UIViewController {
     
-    var configurator: ___VARIABLE_moduleName___ConfiguratorProtocol { get }
     var presenter: ___VARIABLE_moduleName___PresenterProtocol! { get set }
     
 }
@@ -18,13 +17,11 @@ class ___VARIABLE_moduleName___ViewController: UIViewController, ___VARIABLE_mod
     // MARK: - Private properties
     
     // MARK: - Public properties
-    let configurator: ___VARIABLE_moduleName___ConfiguratorProtocol = ___VARIABLE_moduleName___Configurator()
     var presenter: ___VARIABLE_moduleName___PresenterProtocol!
     
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        configurator.configure(with: self)
         presenter.onViewDidLoad()
     }
     
