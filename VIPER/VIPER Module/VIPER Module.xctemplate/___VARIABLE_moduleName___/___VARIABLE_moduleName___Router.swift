@@ -5,7 +5,7 @@ import UIKit
 // MARK: - ___VARIABLE_moduleName___RouterProtocol
 protocol ___VARIABLE_moduleName___RouterProtocol: AnyObject {
     
-    var viewController: ___VARIABLE_moduleName___ViewController! { get set }
+    var viewController: UIViewController! { get set }
     
     init(viewController: ___VARIABLE_moduleName___ViewController)
     
@@ -17,7 +17,7 @@ class ___VARIABLE_moduleName___Router: ___VARIABLE_moduleName___RouterProtocol {
     // MARK: - Private properties
     
     // MARK: - Public properties
-    weak var viewController: ___VARIABLE_moduleName___ViewController!
+    weak var viewController: UIViewController!
     
     // MARK: - Life cycle
     required init(viewController: ___VARIABLE_moduleName___ViewController) {
