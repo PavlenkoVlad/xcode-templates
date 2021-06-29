@@ -5,7 +5,7 @@ import UIKit
 // MARK: - ___VARIABLE_moduleName___ConfiguratorProtocol
 protocol ___VARIABLE_moduleName___ConfiguratorProtocol: AnyObject {
     
-    func configure() -> ___VARIABLE_moduleName___ViewController
+    func configure() -> UIViewController
     
 }
 
@@ -21,7 +21,7 @@ class ___VARIABLE_moduleName___Configurator: ___VARIABLE_moduleName___Configurat
     // MARK: - Private methods
     
     // MARK: - Public methods
-    func configure() -> ___VARIABLE_moduleName___ViewController {
+    func configure() -> UIViewController {
         let identifier = String(describing: ___VARIABLE_moduleName___ViewController.self)
         let storyboard = UIStoryboard(name: identifier, bundle: nil)
         
