@@ -1,6 +1,6 @@
 //___FILEHEADER___
 
-import UIKit
+import Foundation
 
 // MARK: - ___VARIABLE_moduleName___InteractorProtocol
 protocol ___VARIABLE_moduleName___InteractorProtocol: AnyObject {

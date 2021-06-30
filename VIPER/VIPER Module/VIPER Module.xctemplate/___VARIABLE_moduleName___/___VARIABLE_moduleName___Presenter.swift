@@ -1,6 +1,6 @@
 //___FILEHEADER___
 
-import UIKit
+import Foundation
 
 // MARK: - ___VARIABLE_moduleName___PresenterProtocol
 protocol ___VARIABLE_moduleName___PresenterProtocol: AnyObject {
